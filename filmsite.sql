@@ -1,8 +1,9 @@
 CREATE TABLE users (
-    user_id INT PRIMARY KEY,
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
     password VARCHAR(20),
     name VARCHAR(40),
-    email VARCHAR(45)
+    email VARCHAR(45),
+    user_pic BLOB(100)
 );
 
 CREATE TABLE films(
