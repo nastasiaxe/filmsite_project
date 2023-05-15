@@ -15,7 +15,7 @@ session_start();
     <input type="email" name="email" placeholder="Введите логин">
     <label>Пароль: </label>
     <input type="password" name="password" placeholder="Введите пароль">
-    <button type="submit">Войти</button>
+    <button type="submit" name="sign_in">Войти</button>
     <p>
       У вас еще нет аккаунта? <a href="sign_up_form.php">Зарегистрироваться</a>
     </p>

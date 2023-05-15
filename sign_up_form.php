@@ -21,7 +21,7 @@ session_start();
     <input type="email" name="email" placeholder="Введите свой e-mail">
     <label>Аватар профиля: </label>
     <input type="file" name="pic" >
-    <button type="submit">Зарегистрироваться</button>
+    <button type="submit" name="sign_up">Зарегистрироваться</button>
     <p>
       У вас уже есть аккаунт? <a href="index.php">Войти</a>
     </p> 

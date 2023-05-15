@@ -7,7 +7,6 @@ $password = $_POST['password'];
 $confirm_password = $_POST['confirm_password'];
 $email = $_POST['email'];
 
-
 if ($password != $confirm_password) {
     $_SESSION['message'] = 'Пароли не совпадают';
     header('Location: sign_up_form.php');
@@ -17,7 +16,7 @@ if ($password != $confirm_password) {
         $_SESSION['message'] = 'Ошибка при загрузке изображения';
         header('Location: sign_up_form.php');
     }
-    $password = md5($password);
+   
     mysqli_query($connection, "INSERT INTO `users` (`user_id`, `name`, `password`, `email`, `user_pic`) 
     VALUES (NULL, '$name', '$password', '$email', '$path')");
 
