@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +18,7 @@
 <header>
 <nav class="main-navigation">
 <ul class="navigation">
-    <li class="navigation-item"><a href="page_1.html">Главная</a></li>
+    <li class="navigation-item"><a href="page_1.php">Главная</a></li>
     <li class="navigation-item"><a href="#">Подборка</a></li>
     <li class="navigation-item"><a href="#">Фильмы</a></li>
     <li class="navigation-item"><a href="../page_6/page_6.php">Регистрация/вход</a></li>
@@ -42,7 +46,6 @@
     </div>
 </section>
 <footer>
-<p>Сервис просмотра и комментирования фильмов &copy; 2021</p>
 </footer>
 </body>
 </html>
