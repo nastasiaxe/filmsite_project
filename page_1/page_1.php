@@ -19,7 +19,7 @@ session_start();
 <nav class="main-navigation">
 <ul class="navigation">
     <li class="navigation-item"><a href="page_1.php">Главная</a></li>
-    <li class="navigation-item"><a href="#">Подборка</a></li>
+    <li class="navigation-item"><a href="../page_5/page_5.php">Подборка</a></li>
     <li class="navigation-item"><a href="#">Фильмы</a></li>
     <li class="navigation-item"><a href="../page_6/page_6.php">Регистрация/вход</a></li>
 </ul>
@@ -41,7 +41,7 @@ session_start();
             <a href="#"><p>Актуально сегодня</p></a>
         </div>
         <div class="box-2">
-            <a href="#"><p>Что посмотреть?</p></a>
+            <a href="../page_2/page_2.php"><p>Что посмотреть?</p></a>
         </div>
     </div>
 </section>
