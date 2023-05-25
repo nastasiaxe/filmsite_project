@@ -46,7 +46,6 @@ session_start();
     </div>
 </section>
 <footer>
-<p>Сервис просмотра и комментирования фильмов &copy; 2021</p>
 </footer>
 </body>
 </html>
