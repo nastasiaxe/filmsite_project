@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once('connect.php');
+require_once('../connect.php');
 
 
 $email = $_POST['email_us'];
@@ -19,8 +19,7 @@ if(empty($email) || empty($password)){
 
     if($data['password'] === $_POST['password_us']) {
 
-        header("Location: ../page_1/page_1.html"); exit(); // на время, потом будет отправлять на главную страницу
-
+        header("Location: ../page_1/page_1.html"); exit(); 
     } else {
 
         $_SESSION['message'] = 'Неверный логин или пароль';
