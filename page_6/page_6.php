@@ -17,7 +17,7 @@ session_start();
   <ul class="main-nav">
       <li class="main-nav-item"><a class="nav-item" href="../page_1/page_1.php"><p class="logo nav-text">MOVIEMINDS <img src="../page_1/images/pin.png" width="32" height="16"></p></a></li>
       <li class="main-nav-item"><a class="nav-item" href="../page_1/page_1.php"><p class="nav-text">Главная</p></a></li>
-      <li class="main-nav-item"><a class="nav-item" href="#"><p class="nav-text">Подборка</p></a></li>
+      <li class="main-nav-item"><a class="nav-item" href="../page_5/page_5.php"><p class="nav-text">Подборка</p></a></li>
       <li class="main-nav-item"><a class="nav-item" href="#"><p class="nav-text">Фильмы</p></a></li>
       <li class="main-nav-item"><a class="nav-item" href="page_6.php"><p class="nav-text">Регистрация/Вход</p></a></li>
   </ul>
