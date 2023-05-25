@@ -13,7 +13,9 @@ CREATE TABLE films(
     description TEXT,
     genre VARCHAR(45),
     country VARCHAR(45),
-    year VARCHAR(45)
+    year VARCHAR(45),
+    rating VARCHAR(3),
+    actors VARCHAR(150)
 );
 
 
@@ -21,7 +23,7 @@ INSERT INTO FILMS (film_id, title, description, genre, country, year) VALUES ('1
 INSERT INTO FILMS (film_id, title, description, genre, country, year) VALUES ('2','Мальчишник в Вегасе','Перед тем, как отпраздновать предстоящую свадьбу, Даг со своими друзьями Филом и Стю и братом невесты Аланом отправляются на мальчишник в Лас-Вегас, где они устраивают грандиозный мальчишник, а затем пытаются восстановить события прошлой ночи.', 'комедия', 'США', '2009');
 INSERT INTO FILMS (film_id, title, description, genre, country, year) VALUES ('3','Отель «Гранд Будапешт»','Комедийный фильм о приключениях горничной и портье в вымышленном европейском городе по мотивам рассказов Стефана Цвейга.', 'комедия', 'США', '2014');
 INSERT INTO FILMS (film_id, title, description, genre, country, year) VALUES ('4','Матрица','Фильм о том, как программист становится героем, спасающим мир, который на самом деле является симуляцией компьютерной программы.', 'боевик', 'США', '1999');
-INSERT INTO FILMS (film_id, title, description, genre, country, year) VALUES ('5','Бэтмен: Начало','Фильм о том, как молодой Брюс Уэйн начинает свою карьеру в качестве Бэтмена в Готэме.', 'боевик', 'США', '2005');
+INSERT INTO FILMS (film_id, title, description, genre, country, year, rating, actors) VALUES ('5','Бэтмен: Начало','Фильм о том, как молодой Брюс Уэйн начинает свою карьеру в качестве Бэтмена в Готэме.', 'боевик', 'США', '2005', '9.1', 'Кристиан Бэйл, Кэти Холмс, Майкл Кейн и др.');
 INSERT INTO FILMS (film_id, title, description, genre, country, year) VALUES ('6','Джанго освобожденный','Фильм о бывшем рабе, который становится наёмным охотником за головами, чтобы отомстить хозяину своей бывшей рабской жизни.', 'боевик', 'США', '2012');
 INSERT INTO FILMS (film_id, title, description, genre, country, year) VALUES ('7','Титаник','Эпическая драма о знаменитом кораблекрушении и романе между Роуз и Джеком на борту.', 'драма', 'США', '1997');
 INSERT INTO FILMS (film_id, title, description, genre, country, year) VALUES ('8', 'Интерстеллар','Фантастический фильм о космической экспедиции на поиски других обитаемых планет.', 'драма', 'США', '2014');
